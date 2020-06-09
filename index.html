@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Water Quality Management System</title>
     <style>
-        .btn {
-            margin-left: 1%;
-            margin-right: 1%;
-        }
-        
         .container {
             margin-top: 5%;
         }
@@ -22,8 +17,12 @@
         }
         
         .input {
-            background-color: wheat;
+            background: rgba(245, 222, 179, .6);
             padding: 5%;
+        }
+        
+        a {
+            margin: 5%;
         }
         
         html {
@@ -60,12 +59,12 @@
         <h1>
             WATER QUALITY MONITORING SYSTEM
         </h1>
-        <div class="btn-group btn-group text-center" role="group">
-            <button type="button" class="btn btn-secondary">Home</button>
-            <button type="button" class="btn btn-secondary">About</button>
-            <button type="button" class="btn btn-secondary">Contact</button>
-            <button type="button" class="btn btn-secondary">Feedback</button>
-            <button type="button" class="btn btn-secondary">Logout</button>
+        <div class="btn-group btn-group text-center" style="margin-right: 10%;" role="group">
+            <button type="button" style="margin-right: 10%;" class="a btn btn-secondary">Home</button>
+            <button type="button" style="margin-right: 10%;" class="a btn btn-secondary">About</button>
+            <button type="button" style="margin-right: 10%;" class="a btn btn-secondary">Contact</button>
+            <button type="button" style="margin-right: 10%;" class="a btn btn-secondary">Feedback</button>
+            <button type="button" style="margin-right: 10%;" class="a btn btn-secondary">Logout</button>
         </div>
     </div>
     <div class="input container text-center">
@@ -94,7 +93,7 @@
                     <input type="text" class="form-control" id="location" placeholder="Location" />
                 </div>
             </div>
-            <a role="button" href="new.html" class="btn btn-primary btn-lg">Assign</a>
+            <a role="button" href="new.html" style="margin: 0%;" class="btn btn-primary btn-lg">Assign</a>
         </form>
     </div>
 
